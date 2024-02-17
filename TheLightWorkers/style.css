@@ -1,0 +1,19 @@
+body {
+    background-image: url('imgs/Unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    h1{
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px black;
+}
+
+.FormInput{
+     margin: auto;
+    padding: 40px;
+    align-content: center;
+    align-items: center;
+}
