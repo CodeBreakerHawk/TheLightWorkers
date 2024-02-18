@@ -5,53 +5,92 @@ body {
     -webkit-filter: blur(8px);
      */
     }
+
+.alpha_container{
+    display: flex;
+    justify-content: center;
+
+}
+.alpha-1{
+    width: 10%;
+    border-style: solid;
+    border-width: 1px;
+}
+.alpha-2{
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 1px;
+}
     
 .main_container{
 
         display: flex;
         justify-content: space-between;
         
-        /* background-color: #8C8A93; */
-        /* background-size: contain;
-        object-fit: contain; */
+        /* background-color: #8C8A93;  */
+        background-size: contain;
+        object-fit: contain; 
         
-        /*box-shadow: 0 15px 40px rgba(0,0,0,.5);*/
+        box-shadow: 0 15px 40px rgba(0,0,0,.5);
+        border-style: solid;
+        border-width: 1px;
     
     }
 .container{
-        width: 50%;
-        height:400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 400px;
         margin: 0 auto;
         /*border: 2px solid #fff;*/
         box-shadow: 0 15px 40px rgba(0,0,0,.5);
+        border-style: solid;
+        border-width: 1px;
     
     }
+.item-2{
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 1px;
+}
+form{
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+textarea{
+    resize: none;
+}
+
+input, textarea{
+    outline: none;
+
+}
+input:focus, textarea:focus{
+    box-shadow: 0, 0, 4px rgba(255,0,0,.5);
+
+}
+
 
 .title{
-    color: #F79256;
+    color:bisque;
     text-align: center;
-    padding: 50px 0 20px;
-    margin-top: 50px;
-    text-shadow: 1px 1px black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px  20px;
+    margin-top: 10px;
+    /* text-shadow: 1px 1px black; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     }
-
-.FormInput{
-     margin: auto;
-    padding: 40px;
-    align-content: center;
-    align-items: center;
-    }
-
-
 
 .intro{
     color:antiquewhite;
     text-align: center;
     font-size: 25px;
     } 
+
 .sub_intro{
-    color:antiquewhite;
+        /* font-family:serif; */
+        color:antiquewhite;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
     }
+
+
